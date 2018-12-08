@@ -1,0 +1,18 @@
+a. The difference between private and public inheritance is that in public
+you can use and see members of the base class. If you would have used private
+then members couldn't be accessed by a derived class.
+
+b. If you do not include a call to a base class constructor then a default
+constructor will be called from the derived class. 
+
+c. One example of member functions that are not inherited by the derived class
+are private members from the base class. Another example are protected members
+because they restrict the access to derived classes, but we can also say that
+constructors cannot be inerited.
+
+d.Yes, it is possible for a derived class to have more than one base class and
+that is called multiple inheritance. Even though it can occur it is not recommended
+because ambiguity may occur.
+
+e. The optimal way of overloading an operator is to use operators for example +,-,%,==,etc.
+They are also called built-in operators.
